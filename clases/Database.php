@@ -1,4 +1,4 @@
-<?php
+<?php 
     namespace Clases;
     class Database{
         private $conn;

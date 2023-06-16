@@ -1,8 +1,7 @@
-<?php
-    include_once __DIR__. '/Templates/header.php';
+<?php 
+    include_once __DIR__.'/Templates/header.php';
 ?>
-
-    <!-- SIDEBAR -->
+    	<!-- SIDEBAR -->
 	<section id="sidebar">
 		<a href="#" class="brand"><i class='bx bxs-smile icon'></i> AdminSite</a>
 		<ul class="side-menu">
@@ -12,7 +11,7 @@
 				<a href="#"><i class='bx bxs-inbox icon' ></i> Ubicaciones <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
 					<li><a class="enlace" data-urldestino="view/Countries/maincountry.php" href="#">Paises</a></li>
-					<li><a class="enlace" data-urldestino="view/Regions/mainregions.php" href="#">Regiones</a></li>
+					<li><a class="enlace" data-urldestino="view/Regions/mainregion.php" href="#">Regiones</a></li>
 					<li><a class="enlace" data-urldestino="view/Cities/maincity.php" href="#">Ciudades</a></li>
 				</ul>
 			</li>
@@ -54,19 +53,17 @@
 		</nav>
 		<!-- NAVBAR -->
 
-		<!-- MAIN Programa Principal--> 
+		<!-- MAIN -->
 		<main>
-			<div class="container">
-				<div class="container-content mt-5" id="contentphp">
+            <div class="container">
+                <div class="container-content mt-2" id="contentphp">
 
-				</div>
-			</div>
-		
+                </div>
+            </div>
 		</main>
 		<!-- MAIN -->
 	</section>
 	<!-- NAVBAR -->
-
 <?php
-    include_once __DIR__. 'Templates/footer.php';
+    include_once __DIR__. '/Templates/footer.php';
 ?>
